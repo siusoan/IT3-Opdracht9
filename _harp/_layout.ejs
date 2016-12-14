@@ -1,16 +1,31 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Hier komt je titel</title>
+		<title>GOLIATH AWARDS 2016</title>
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
-		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-       <%- yield %>
-	     <script src="assets/javascripts/application.js"></script>
+			<div class="parallax">
+						<header>
+									<h1>G O L I A T H</h1>
+									<nav>
+												<ul class="navigation-menu">
+															<li><a href="#">2015</a></li>
+															<li><a href="#">2014</a></li>
+															<li><a href="#">2013</a></li>
+															<li><a href="#">2012</a></li>
+												</ul>
+									</nav>
+						</header>
+
+						<main>
+			       <%- yield %>
+					 	</main>
+
+						<footer>
+						</footer>
+			</div>
 	</body>
 </html>
